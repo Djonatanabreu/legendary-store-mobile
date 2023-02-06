@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "suppressImplicitAnyIndexErrors": true,
+    "useUnknownInCatchVariables": false,
+    "noUnusedLocals": false,
+    "strict": true,
+    "jsx": "react-jsx",
+    "types": [
+      "jest"
+    ],
+    "rootDir": "..",
+    "noEmit": true,
+
+  },
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts",
+  ],
+}
