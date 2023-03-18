@@ -25,15 +25,17 @@ export const CheckBox = ({ onPress, text }: checkBoxProps) => {
           style={[
             styles.checkBoxStyle,
             {
-              backgroundColor: checked ? Colors.Blue : 'transparent',
-              borderColor: checked ? Colors.Black : Colors.MediumGrey,
+              backgroundColor: checked
+                ? Colors.FlourescentOrange
+                : 'transparent',
+              borderColor: checked ? Colors.Orange : Colors.MediumGrey,
             },
           ]}
         >
-          {checked && <Icon name="CheckMark" />}
+          {checked && <Icon name='CheckMark' />}
         </View>
       </TouchableWithoutFeedback>
-      <Text font="brutalRegular" color="Grey" size={18}>
+      <Text font='brutalRegular' color='Grey' size={16}>
         {text}
       </Text>
     </View>

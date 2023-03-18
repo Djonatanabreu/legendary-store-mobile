@@ -10,7 +10,8 @@ export const styles = StyleSheet.create({
     borderRadius: 4,
   },
   inputStyle: {
-    padding: width(6),
+    padding: width(2),
+    height: '100%',
     color: Colors.White,
   },
 });

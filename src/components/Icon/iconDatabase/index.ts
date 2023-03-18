@@ -1,4 +1,5 @@
-export { EpicGames } from './EpicGames';
+export { LegendaryBrand } from './LegendaryBrand';
+export { LegendaryIcon } from './LegendaryIcon';
 export { CheckMark } from './CheckMark';
 export { ArrowBack } from './ArrowBack';
 export { ArrowDown } from './ArrowDown';

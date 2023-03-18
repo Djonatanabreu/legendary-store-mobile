@@ -104,9 +104,9 @@ export const Register = () => {
       <SafeAreaView style={styles.registerContainer}>
         <ArrowBack onPress={() => goBack()} />
         <Spacer amount={1} />
-        <Icon name={'EpicGames'} />
+        <Icon name={'LegendaryIcon'} />
         <Spacer amount={2} />
-        <Text font="brutalBold" color="White">
+        <Text font='brutalBold' color='White'>
           Sign Up
         </Text>
         <Spacer amount={2} />
@@ -160,12 +160,12 @@ export const Register = () => {
         <Spacer amount={4} />
         <View style={styles.checkBoxContainer}>
           <CheckBox
-            text="I would like to receive news, surveys and special offers from Legendary Games"
+            text='I would like to receive news, surveys and special offers from Legendary Store'
             onPress={onReceiveNews}
           />
           <Spacer amount={4} />
           <CheckBox
-            text="I read and agree to the terms of service."
+            text='I read and agree to the terms of service.'
             onPress={setTermsOfService}
           />
         </View>
@@ -173,27 +173,27 @@ export const Register = () => {
         <Button
           enabled={enableConfirmButton()}
           onPress={nextStepHandler}
-          title="CONTINUE"
+          title='CONTINUE'
         />
         <Spacer amount={4} />
         <Text
           onPress={onPrivacyPolicy}
-          font="brutalRegular"
+          font='brutalRegular'
           size={17}
-          textDecorationLine="underline"
+          textDecorationLine='underline'
         >
           Privacy Policy
         </Text>
         <Spacer amount={2} />
         <View style={styles.signInLink}>
-          <Text font="brutalRegular" size={16}>
-            Have a Legendary Games Account?
+          <Text font='brutalRegular' size={16}>
+            Have a Legendary Store Account?
           </Text>
           <Text
             onPress={onSignIn}
-            font="brutalRegular"
+            font='brutalRegular'
             size={16}
-            textDecorationLine="underline"
+            textDecorationLine='underline'
           >
             Sign In
           </Text>

@@ -29,7 +29,7 @@ export const Input = ({ errorMessage, small, ...rest }: InputProps) => {
       {
         <>
           <Spacer amount={0.5} />
-          <Text font="brutalRegular" size={width(3.5)} color="Red">
+          <Text font='brutalRegular' size={width(3.5)} color='Red'>
             {errorMessage}
           </Text>
         </>

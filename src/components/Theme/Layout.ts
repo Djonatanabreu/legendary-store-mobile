@@ -1,6 +1,6 @@
 import { Dimensions } from 'react-native';
 
-import { Colors } from './Colors';
+import { colorNames, Colors } from './Colors';
 
 const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;
@@ -12,6 +12,8 @@ interface ILayout {
     height: number;
   };
   isSmallDevice: boolean;
+  activeOpacty: number;
+  rippleColor: colorNames | string;
 }
 
 export const Layout: ILayout = {
@@ -20,7 +22,7 @@ export const Layout: ILayout = {
     width,
     height,
   },
-  isSmallDevice: width < 375,
+  isSmallDevice: width < 375 || height < 491,
 
   activeOpacty: 0.6,
   rippleColor: Colors.Grey,

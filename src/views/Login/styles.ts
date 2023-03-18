@@ -4,9 +4,8 @@ import { height, width } from '../../components/Theme/Responsive';
 
 export const styles = StyleSheet.create({
   container: {
-    width: width(100),
-    height: height(100),
     paddingHorizontal: width(5),
+    height: height(100),
     alignItems: 'center',
     backgroundColor: Colors.DarkGrey,
   },

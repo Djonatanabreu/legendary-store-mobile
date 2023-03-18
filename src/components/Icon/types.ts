@@ -1,5 +1,6 @@
 export type IconName =
-  | 'EpicGames'
+  | 'LegendaryBrand'
+  | 'LegendaryIcon'
   | 'CheckMark'
   | 'ArrowBack'
   | 'ArrowDown'

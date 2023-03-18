@@ -6,8 +6,13 @@ export const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
+    maxWidth: '95%',
+    maxHeight: height(8),
   },
   checkBoxStyle: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingTop: width(0.8),
     borderWidth: 1,
     borderColor: Colors.MediumGrey,
     borderRadius: 4,
