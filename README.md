@@ -1,4 +1,8 @@
-# TypeScript Example
+# Legendary Store
+
+### A Historic Store
+
+### TypeScript Examples
 
 <p>
   <!-- iOS -->
