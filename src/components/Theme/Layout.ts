@@ -2,8 +2,8 @@ import { Dimensions } from 'react-native';
 
 import { colorNames, Colors } from './Colors';
 
-const width = Dimensions.get('window').width;
-const height = Dimensions.get('window').height;
+const width = Dimensions.get('screen').width;
+const height = Dimensions.get('screen').height;
 
 interface ILayout {
   paddingHorizontal: number;

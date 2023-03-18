@@ -102,7 +102,7 @@ export const Login = () => {
         <Text font='brutalRegular' size={17}>
           Dont have a Legendary Store Account?
         </Text>
-        <Spacer amount={height(0.2)} />
+        <Spacer amount={height(0.1)} />
         <Text
           onPress={onSignUp}
           font='brutalRegular'
@@ -111,7 +111,7 @@ export const Login = () => {
         >
           Sign Up
         </Text>
-        <Spacer amount={height(1)} />
+        <Spacer amount={height(0.4)} />
         <Text
           onPress={onBackHandler}
           font='brutalRegular'
