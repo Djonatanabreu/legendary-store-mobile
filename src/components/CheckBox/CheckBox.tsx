@@ -25,10 +25,10 @@ export const CheckBox = ({ onPress, text }: checkBoxProps) => {
           style={[
             styles.checkBoxStyle,
             {
-              backgroundColor: checked
-                ? Colors.FlourescentOrange
-                : 'transparent',
-              borderColor: checked ? Colors.Orange : Colors.MediumGrey,
+              backgroundColor: checked ? Colors.Green : 'transparent',
+              borderColor: checked
+                ? Colors.FlourescentGreen
+                : Colors.MediumGrey,
             },
           ]}
         >

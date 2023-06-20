@@ -24,9 +24,11 @@ export const Login = () => {
 
   const [email, password] = form;
 
-  const enabled = email.value.length > 0 && password.value.length > 0;
+  const enabled = email.value.length > 7 && password.value.length > 4;
 
-  const onLogin = () => '';
+  const onLogin = () => {
+    console.log('Login');
+  };
 
   const onHandlerEmail = (value: string) => {
     setForm(
