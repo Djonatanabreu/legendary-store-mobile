@@ -1,11 +1,10 @@
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import Navigator from './src/navigation';
-import { useLoadFonts } from './src/hooks/useLoadFonts';
-import { styles } from './appStyles';
-import React from 'react';
-import { Provider } from 'react-redux';
-import { store } from './src/store/store';
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { Provider } from "react-redux";
+import { useLoadFonts } from "./src/hooks/useLoadFonts";
+import { store } from "./src/store/store";
+import Navigator from "./src/navigation";
+import { styles } from "./appStyles";
 
 export default function App() {
   const [loaded] = useLoadFonts();
